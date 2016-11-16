@@ -1,0 +1,421 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>Index.html</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+        <!-- Javascript  -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+        <script type="text/javascript">
+            $(function () {
+                var filterList = {
+                    init: function () {
+                        // MixItUp plugin
+                        // http://mixitup.io
+                        $('#grid').mixItUp({
+                            selectors: {
+                                target: '.grid-item',
+                                filter: '.filter' 
+                            },
+                            load: {
+                                filter: '.branding, .web, .logo, .photo'  
+                            }     
+                        });
+                    }
+                };
+
+                // Run the show!
+                filterList.init();
+            });
+        </script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><strong>PIX</strong><span style="font-weight:lighter">ZEE</span></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Features <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Pages</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </nav>
+            <div class="info">
+                <div class="container">
+                    <div class="pull-right">
+                        <ul class="li-info">
+                            <li class="non-sosmed">
+                                <i class="fa fa-envelope"></i>
+                                <a href="mailto:email@yourcompany.com">EMAIL@YOURCOMPANY.COM</a>
+                            </li>
+                            <li class="non-sosmed" style="margin-right: 20px">
+                                <i class="fa fa-phone-square"></i> 081-25445-4032
+                            </li>
+                            <li class="sosmed">
+                                <a href="#"><img src="img/feed.png" /></a>
+                            </li>
+                            <li class="sosmed">
+                                <a href="#"><img src="img/facebook.png" /></a>
+                            </li>
+                            <li class="sosmed">
+                                <a href="#"><img src="img/twitter.png" /></a>
+                            </li>
+                            <li class="sosmed">
+                                <a href="#"><img src="img/dribble.png" /></a>
+                            </li>
+                            <li class="sosmed">
+                                <a href="#"><img src="img/pinterest.png" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="slider">
+            <div class="container">
+                <ul class="bxslider">
+                    <li>
+                        <h1 style="font-size: 75px;text-transform: uppercase; font-family: 'BebasNeue', sans-serif;"><span style="color: #00adf0;border-left: 1px solid #ffffff;">Design,</span><span style="color: #4cbb90"> Development,</span><span style="color: #d96446;border-right: 1px solid #ffffff"> Seo</span></h1>
+                        <p style="color: #ffffff; padding: 0 19%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida mattis mi vitae tristique. Quisque vel purus tempor, tincidunt tellus ut, blandit lacus. Mauris a arcu placerat, semper felis non, iaculis turpis.</p>
+                        <button style="margin-top: 20px;background-color: transparent;border-radius: 3px;border: 1px solid #ffffff;color: #fff;text-transform: uppercase;padding: 15px 10px">Keep Calm and DownloadPSD</button>
+                    </li>
+                    <li>
+                        <h1>Lorem ipsum</h1>
+                    </li>
+                    <li>
+                        <h1>ahsdiuhasiudh</h1>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="service">
+            <div class="container">
+                <h1 class="title">What Makes Us Different?</h1>
+                <h5 class="desc">Capacitance cascading integer reflective interface data development high bus cache dithering transponder.</h5>
+                <div class="col-md-4">
+                    <div class="img-pattern">
+                        <div class="img-service">
+                            <img src="img/king.png">
+                        </div>
+                    </div>
+                    <h2 class="item-title">Experienced</h2>
+                    <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="img-pattern">
+                        <div class="img-service">
+                            <img src="img/sherif.png">
+                        </div>
+                    </div>
+                    <h2 class="item-title">Responsive</h2>
+                    <p class="text-center">Neque porro quisquam est, qui dolorem ipsum quia dolor sitamet,consectetu radipisci</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="img-pattern">
+                        <div class="img-service">
+                            <img src="img/queen.png">
+                        </div>
+                    </div>
+                    <h2 class="item-title">Competitive</h2>
+                    <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                </div>
+            </div>
+        </section>
+        <section id="project">
+            <div class="container">
+                <h1 class="title">Recent Projects</h1>
+                <h5 class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</h5>
+                <div class="row row-centered">
+                    <div class="col-md-5 col-centered col-min">
+                        <div class="item">
+                            <ul id="filters" class="clearfix">
+                                <li><span class="filter active" data-filter=".branding, .web, .logo, .photo">All</span></li>
+                                <li><span class="filter" data-filter=".branding">Branding</span></li>
+                                <li><span class="filter" data-filter=".web">Web</span></li>
+                                <li><span class="filter" data-filter=".logo">Logo Design</span></li>
+                                <li><span class="filter" data-filter=".photo">Photography</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="grid">
+                <div class="grid-item branding" data-cat="branding">
+                    <img src="img/project1.jpg">
+                </div>
+                <div class="grid-item logo" data-cat="logo">
+                    <img src="img/project2.jpg">
+                </div>
+                <div class="grid-item web" data-cat="web">
+                    <img src="img/project3.jpg">
+                </div>
+                <div class="grid-item photo" data-cat="photo">
+                    <img src="img/project4.jpg">
+                </div>
+                <div class="grid-item web" data-cat="web">
+                    <img src="img/project3.jpg">
+                </div>
+                <div class="grid-item photo" data-cat="photo">
+                    <img src="img/project4.jpg">
+                </div>
+                <div class="grid-item branding" data-cat="branding">
+                    <img src="img/project1.jpg">
+                </div>
+                <div class="grid-item logo" data-cat="logo">
+                    <img src="img/project2.jpg">
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <button class="center-block green-button" style="margin-top: 50px">Our Portfolio</button>
+        </section>
+        <section id="testimoni">
+            <div class="container">
+                <div class="col-md-6">
+                    <h1 class="client">Client <strong>Testimonials</strong></h1>
+                    <div class="control-direct">
+                        <button class="prev" data-nav="prev"></button>
+                        <button class="next" data-nav="next"></button>
+                    </div>
+                    <ul class="client-slider">
+                        <li>
+                            <div class="client-content">
+                                <div class="client-photo">
+                                    <img src="img/client1.jpg" />
+                                </div>
+                                <blockquote>
+                                    <q>Lorem ipsum dolor sit amet, consnt dolore magna aliquam erat voaliquamer qui dolorem adipisci velit.</q>
+                                    <footer>
+                                        <p>John Doe</p>
+                                        <a href="#">www.downloadpsd.co</a>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="client-content">
+                                <div class="client-photo">
+                                    <img src="img/client2.jpg" />
+                                </div>
+                                <blockquote>
+                                    <q>Dolor sit amet, consnt dolore magna aliquam erat voaliquamer qui dolorem adipisci velit.</q>
+                                    <footer>
+                                        <p>John Doe</p>
+                                        <a href="#">www.downloadpsd.co</a>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="client-content">
+                                <div class="client-photo">
+                                    <img src="img/client3.jpg" />
+                                </div>
+                                <blockquote>
+                                    <q>Lorem ipsum dolor sit amet, consnt dolore magna aliquam erat voaliquamer qui dolorem adipisci velit.</q>
+                                    <footer>
+                                        <p>John Doe</p>
+                                        <a href="#">www.downloadpsd.co</a>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="client-content">
+                                <div class="client-photo">
+                                    <img src="img/client4.jpg" />
+                                </div>
+                                <blockquote>
+                                    <q>Lorem ipsum dolor sit amet, consnt dolore magna aliquam erat voaliquamer qui dolorem adipisci velit.</q>
+                                    <footer>
+                                        <p>John Doe</p>
+                                        <a href="#">www.downloadpsd.co</a>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h1 class="skill">PIXZEE <strong>Skills</strong></h1>
+                    <div class="first-skill-content">
+                        <h4 class="skill-title">Web Design</h4>
+                        <h5 class="percent">90%</h5>
+                        <div class="design"></div>
+                    </div>
+                    <div class="skill-content">
+                        <h4 class="skill-title">HTML/CSS</h4>
+                        <h5 class="percent">95%</h5>
+                        <div class="slicing"></div>
+                    </div>
+                    <div class="skill-content">
+                        <h4 class="skill-title">Joomla</h4>
+                        <h5 class="percent">80%</h5>
+                        <div class="joomla"></div>
+                    </div>
+                    <div class="skill-content">
+                        <h4 class="skill-title">SEO/SMO</h4>
+                        <h5 class="percent">60%</h5>
+                        <div class="seo"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="hello">
+            <div class="container">
+                <h1>Say <strong>Hello</strong></h1>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="col-md-7">
+                    <form class="form">
+                        <input type="text" name="name" placeholder="YOUR NAME" />
+                        <input type="email" name="email" placeholder="E-MAIL" />
+                        <input type="text" name="subject" placeholder="THE SUBJECT" />
+                        <textarea placeholder="YOUR MESSAGE" rows="10"></textarea>
+                        <button>Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="contact-detail">
+                        <h3>Contact Details</h3>
+                        <p>Mauris interdum tortor et eleifend adipiscing. Nullam congue sodales fermentum. Nullam pulvinar gravida aliquam. Quisque nec lorem nec lacus semper cursus. Suspendisse potenti. Mauris nec vehicula nibh.</p>
+                        <i class="fa fa-map-marker"></i> 18A, Polo Street (Yellow Door)<br/>
+                        <i class="fa fa-phone-square"></i> 0846 9907 8544<br/>
+                        <i class="fa fa-envelope"></i> support@downloadpsd.co
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <div class="container">
+                <div class="col-md-4">
+                    <h4 class="footer-title">Latest Tweets</h4>
+                    <ul class="tweet">
+                        <li><span class="time">about 16 hours ago</span> we replied to @daiburchell Donec malesuada vel nulla in vehicula. Quisque facilisis nibh sagittis vestibulum dignissim</li>
+                        <li><span class="time">about 20 hours ago</span> we replied to @daiburchell Donec malesuada vel nulla in vehicula. Quisque facilisis nibh sagittis vestibulum dignissim</li>
+                        <li><span class="time">about 23 hours ago</span> we replied to @daiburchell Donec malesuada vel nulla in vehicula. Quisque facilisis nibh sagittis vestibulum dignissim</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="footer-title">Flickr Photostream</h4>
+                    <div class="flickr">
+                        <img src="img/project1.jpg" />
+                        <img src="img/project2.jpg" />
+                        <img src="img/project3.jpg" />
+                        <img src="img/project4.jpg" />
+                        <img src="img/project3.jpg" />
+                        <img src="img/project4.jpg" />
+                        <img src="img/project1.jpg" />
+                        <img src="img/project2.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-4 subscribe">
+                    <h4 class="footer-title">Newsletter Signup</h4>
+                    <p>Sign up for our newsletter and get free stuff delivered to your inbox daily</p>
+                    <form class="form-subs">
+                        <input type="text" name="name" placeholder="Your Name" />
+                        <input type="email" name="email" placeholder="Your Email Address" />
+                        <button class="green-button">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer id="copyright">
+            <div class="container">
+                <p>© 2014 Pixzee | Downloadpsd.co All Rights Reserved</p>
+                <div class="menu">
+                    <a href="#">FAQ</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </footer>
+        
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.bxslider').bxSlider();
+
+                var theContent = $('ul.client-slider li .client-content');
+                var theWidth = theContent.width();
+
+                $('ul.client-slider').wrap('<div id="mother" />');
+                $('#mother').css({
+                    width: $('ul.client-slider li').width(),
+                    height: function() {
+                    return theContent.height();
+                  },
+                    position: 'relative',
+                    overflow: 'hidden'
+                });
+
+                var totalWidth = theContent.length * theWidth;
+                $('ul.client-slider').css({
+                    width: function(){
+                        return totalWidth;
+                    }
+                });
+
+                var Num_of_Divs = $('.client-content').length; // Number of divs
+                var i = 1; // set i (index) to 1 to show the index(1) div (div number 2)
+                $('.control-direct button').on('click',function(){
+                    if($(this).is('.next')) {
+                       i = (i >= Num_of_Divs)? 0 : i; // if index >= Number of Divs set i = 0 (the first div)  if not i = i 
+                       $('.client-content').closest('ul.client-slider').animate({  // not need to use parent().parent()  you can use closest();
+                           "margin-left": (-(i) * theWidth)
+                       }, 1000);
+                       i++;
+                    } else if($(this).is('.prev')) {
+                       i--;
+                       i = (i < 1)? Num_of_Divs : i; // if index < 1 set i = Number of Divs  if not i = i 
+                       $('.client-content').closest('ul.client-slider').animate({
+                           "margin-left": (-(i - 1) * theWidth)
+                       }, 1000);  
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
